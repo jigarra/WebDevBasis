@@ -1,0 +1,278 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: flex;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    border: 1px solid black;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    margin-left: 20%;
+}
+
+nav h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+.link {
+    margin-top: 10px;
+    margin-right: 20%;
+    float: right;
+}
+
+.navigation {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    text-decoration: none;
+    padding: 15px;
+    display: flexbox;
+}
+
+.navigation:hover {
+    color: black;
+    background-color: rgb(165, 168, 172);
+}
+
+
+.main-body {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.l-body {
+    color: white;
+    width: 20%;
+
+}
+
+.c-body {
+    width: 65%;
+    /* border: 1px solid black; */
+}
+
+.img-container img {
+    width: 960px;
+    height: 360px;
+    margin-bottom: 5px;
+}
+
+.r-body {
+    color: white;
+    width: 20%;
+
+}
+
+.main-card {
+
+    display: flex;
+
+}
+
+.card {
+    margin-left: 5px;
+    margin-top: 0;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.cardimg {
+    float: left;
+    margin-top: 10px;
+    width: 32;
+    height: 32px;
+}
+
+h2 {
+    float: left;
+    margin-left: 10PX;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    font-size: small;
+}
+
+.readmore-card {
+    float: right;
+    text-decoration-line: none;
+    color: orange;
+}
+
+.main-hr {
+
+    color: bisque;
+    height: 2px;
+    background-color: rgb(187, 170, 170);
+    border: 0;
+    margin-bottom: 40px;
+}
+
+/* work image */
+
+.work-card {
+
+    display: inline-flex;
+    margin-bottom: 25px;
+
+}
+
+.workimage {
+    padding: 1px;
+    border: 1px solid rgb(134, 134, 134);
+    margin-right: 75px;
+    width: 290;
+    height: 180px;
+}
+
+.viewwork {
+    float: right;
+    text-decoration: none;
+    color: orange;
+}
+
+/* telsenmenia */
+.telsenmenia {
+    display: inline-flex;
+}
+
+.certification {
+
+    width: 60%;
+
+
+}
+
+.card-certify {
+    margin-bottom: 15px;
+
+}
+
+.certify-img {
+    padding: 1px;
+    border: 1px solid rgb(141, 138, 138);
+    width: 180px;
+    height: 150px;
+    float: left;
+}
+
+.text {
+
+    width: 68%;
+    float: left;
+}
+
+.card-certify-header {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: rgb(119, 119, 116);
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.text-discr {
+    float: left;
+    margin-left: 5px;
+}
+
+.certify-readmore {
+    float: right;
+    margin-right: 15px;
+    text-decoration: none;
+    color: orange;
+
+}
+
+
+.categories {
+    width: 40%;
+
+    margin-left: 10px;
+
+}
+
+.categori-title {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+.list-categories {
+
+    margin-left: 0;
+}
+
+.categori-title {
+
+    color: dimgray;
+    font-size: 20px;
+}
+
+li {
+
+    list-style-type: none;
+    position: relative;
+    color: orange;
+    padding-left: 15px;
+}
+
+li:before {
+    content: "\25BA \0020";
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+ul hr {
+
+    border: 0;
+    border-top: 2px dotted rgb(124, 115, 115);
+
+
+
+}
+
+
+
+.cet-list {
+    text-decoration: none;
+    color: dimgray;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: black;
+
+}
+
+.r-footer {
+    margin-left: 20%;
+    float: left;
+
+
+}
+
+.l-footer {
+    float: right;
+    margin-right: 20%;
+
+
+}
