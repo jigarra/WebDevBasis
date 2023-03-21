@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>TestCode</title>
+</head>
+
+<body>
+    <div class="checkbox-fild">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="PHP" name="checkboxtype" id="php">
+            <label class="form-check-label" for="php">
+                PHP
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Javascript" name="checkboxtype" id="Javascript">
+            <label class="form-check-label" for="Javascript">
+                Javascript
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Mysql" name="checkboxtype" id="Mysql">
+            <label class="form-check-label" for="Mysql">
+                Mysql
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Jquery" name="checkboxtype" id="Jquery">
+            <label class="form-check-label" for="Jquery">
+                Jquery
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value=".Net" name="checkboxtype" id="net">
+            <label class="form-check-label" for="net">
+                .Net
+            </label>
+        </div>
+        <div class="form-check p-0">
+            <input class="form-check-input-all select-all" type="checkbox" value="SelectAll" name="checkval"
+                id="selectall">
+            <label class="form-check-label" for="selectall">
+                Select All
+            </label>
+        </div>
+        <button id="check-btn">Check value</button>
+        <div class="form-check">
+            <p id="boxval"></p>
+        </div>
+
+    </div>
+    <!-- check ajax btn -->
+    <div class="checkbox-fild">
+        <button type="button" class="btn btn-secondary ajexbtn">i will show you ajex.txt data</button>
+        <p id="ajaxdata"></p>
+    </div>
+    <!-- check new ajax btn -->
+    <div class="checkbox-fild">
+        <button type="button" class="btn btn-secondary ajaxhtml">i will show you index.html code</button>
+        <p id="ajaxhtml"></p>
+    </div>
+
+    <div class="checkbox-fild">
+        <button type="button" class="btn btn-secondary arraydisplay">I m array?</button>
+        <p id="arraytype"></p>
+    </div>
+
+    <div class="checkbox-fild">
+        <p id="listclick">clickme</p>
+        <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">An active item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+        </ul>
+    </div>
+    <div class="checkbox-fild">
+        <p id="li-output"></p>
+    </div>
+
+    <!-- card view change -->
+    <div class="checkbox-fild cardview">
+        <div class="card" style="width: 22rem;">
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta exercitationem
+                    mollitia perferendis consequuntur dignissimos aut voluptatum laboriosam cumque blanditiis totam quod
+                    praesentium quidem minus natus, sequi amet ut itaque ipsam.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 22rem;">
+
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta exercitationem
+                    mollitia perferendis consequuntur dignissimos aut voluptatum laboriosam cumque blanditiis totam quod
+                    praesentium quidem minus natus, sequi amet ut itaque ipsam.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 22rem;">
+
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta exercitationem
+                    mollitia perferendis consequuntur dignissimos aut voluptatum laboriosam cumque blanditiis totam quod
+                    praesentium quidem minus natus, sequi amet ut itaque ipsam.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript" defer="defer"></script>
+</body>
+
+</html>
