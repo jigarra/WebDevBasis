@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Day 2 JS</title>
+    <style>
+        .clearfix {
+            clear: both;
+            display: flexbox;
+            content: "";
+        }
+        p {
+            margin-left:20px ;
+            text-align: center;
+            background-color: antiquewhite;
+            border-radius: 5px;
+            width: 50%;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .l-side{
+            width: 50%;
+            border: 1px solid black;
+            float: left;
+        }
+        .game{
+            margin-left: 10px;
+            float: left;
+            border: 1px solid black;
+            display: inline-flex;
+            width: 45%;
+           
+        }
+        .btn{
+            width: 10%;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: aquamarine;
+            border: 0;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        #display{
+            margin-top: 20px;
+            font-size: 50px;
+        }
+        
+    </style>
+
+<body class="clearfix">
+    <div class="l-side">
+        <p onmouseenter="check1()">heii</p>
+        <p onpointerleave="show()">show number </p>
+        <p onpointerleave="type()">show type</p>
+        <p onclick="bool()">showBool</p>
+
+        <label>Enter expression</label>
+        <input type="text" id="expression" name="expression">
+        <button onclick="exp()">Get Out put</button>
+        <p id="print">output </p>
+        <p onclick="evenodd()" id="evenodd"> Even or Odd</p>
+    </div>
+    <div class="game">
+
+        <button class="btn" id="clickbtn">+</button>
+        <b id="display"></b>
+        <button class="btn" id="clickbtndecr">-</button>
+
+    </div>
+
+    
+</body>
+<script src="main.js"></script>
+
+</html>

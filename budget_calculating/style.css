@@ -1,0 +1,219 @@
+.main {
+
+    width: 100%;
+    display: inline-flex;
+    height: 45rem;
+}
+#demo{
+    text-align: center;
+}
+.calculate {
+
+    display: inline;
+    width: 50%;
+    height: 45rem;
+
+}
+
+.budget {
+
+    width: 100%;
+}
+
+.border {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(11, 134, 17, 0.658);
+    margin: 70px;
+    padding: 30px;
+    border: 2px solid rgb(57, 238, 33);
+}
+
+.border label {
+    font-size: 20px;
+    color: green;
+
+}
+
+.border input {
+
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    font-size: 20px;
+}
+
+.border-expance {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(134, 36, 11, 0.658);
+    margin: 70px;
+    padding: 50px;
+    border: 2px solid red;
+}
+
+
+.border-expance input {
+
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-expance {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-size: 20px;
+}
+
+.expance {
+    width: 100%;
+    height: 20rem;
+
+}
+
+.output {
+
+    width: 50%;
+
+}
+
+.money {
+    height: 20rem;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.m-budget {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.658);
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+
+}
+
+#my-budget {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.money label {
+
+    font-size: 20PX;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fa {
+    color: rgb(7, 7, 75);
+    margin-top: 15px;
+    font-size: 150px;
+}
+
+.m-expance {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.658);
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+
+}
+
+#my-expance {
+    color: rgb(255, 9, 9);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.m-balance {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.658);
+    text-align: center;
+    margin: 30px;
+    width: 100%;
+
+}
+
+#my-balance {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.expance-list {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+}
+
+.expance-title {
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.expance-value {
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.expance-operation {
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sublist{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    background-color: #9da0a1;
+    padding: 10px;
+}
+
+
+.title {
+    width: 30%;
+    text-align: center;
+}
+
+.amount {
+    width: 30%;
+    text-align: center;
+}
+
+.edit {
+    margin-left: 10%;
+}
+
+.edit,
+.delete {
+    padding-left: 5%;
+    text-align: center;
+    padding-right: 5%;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    color: #008628;
+}

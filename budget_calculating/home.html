@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Budget Calculater</title>
+</head>
+
+<body>
+    <h1 id="demo"></h1>
+    <h1 id="demo1"></h1>
+    <div class="main">
+        <div class="calculate">
+            <div class="budget">
+                <div class="border">
+                    <label for="">Pleas Enter your Budget</label><br>
+                    <input type="number" name="budget-amount" id="budget-amount"><br>
+                    <small id="error"></small>
+                    <button type="submit" class="btn-submit" id="budget-amt-submit"> calculate</button>
+                </div>
+            </div>
+            <div class="expance">
+                <div class="border-expance">
+                    <label for="">Pleas Enter Expance</label><br>
+                    <input type="text" name="budget" id="title"><br>
+                    <input type="number" name="expance" id="expance-amount">
+                    <button type="submit" class="btn-expance" id="expance-amt-submit">Add Expance</button>
+                </div>
+            </div>
+        </div>
+        <div class="output">
+            <div class="money">
+                <div class="m-budget">
+                    <label for="">BUDGET</label><br>
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                    <p id="my-budget">0</p>
+                </div>
+                <div class="m-expance">
+                    <label for="">EXPANCE</label><br>
+                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    <p id="my-expance">0</p>
+                </div>
+                <div class="m-balance">
+                    <label for="">BALANCE</label><br>
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p id="my-balance">0</p>
+                </div>
+            </div>
+            <div class="expance-list">
+                <div class="expance-title">
+                    <label for="">Expance Title</label>
+                    
+                </div>
+                <div class="expance-value">
+                    <label for="">Expance value</label>
+                </div>
+                <div class="expance-operation">
+                    <label for="">Operation</label>
+                </div>
+            </div>
+
+            <div id="list"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="obj.js"></script>
+</body>
+
+</html>

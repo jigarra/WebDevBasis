@@ -1,0 +1,156 @@
+.clearfix {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.main {
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo {
+    color: white;
+    background-color: rgb(142, 58, 252);
+
+    width: 50%;
+    height: 50rem;
+}
+
+.logo-img {
+
+    padding-top: 150px;
+    margin-left: 120px;
+    height: 100px;
+}
+
+.logo-title {
+
+    padding-top: 100px;
+    margin-left: 145px;
+}
+
+.logo p {
+
+    padding-top: 20px;
+    margin-left: 145px;
+    width: 50%;
+}
+
+.logo a {
+    margin-top: 50px;
+    margin-left: 145px;
+    color: white;
+}
+
+.form-data {
+
+    width: 50%;
+    height: 49rem;
+}
+
+
+/* form style */
+
+.back-login {
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-title {
+
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family:sans-serif;
+}
+
+.name {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.form {
+    font-size: 20px;
+}
+
+.flname {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50PX;
+}
+
+.form-name {
+    margin-top: 15px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 15px;
+    width: 15rem;
+    border-color: rgba(185, 110, 255, 0.918);
+}
+
+.form-fild {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.form-lable .phone {
+    display: inline-flex;
+}
+
+.form-fild-phone {
+    margin-top: 15px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 15px;
+    width: 32rem;
+    border-color: rgba(185, 110, 255, 0.918);
+}
+
+.form-fild-cuntry {
+    margin-top: 15px;
+    margin-right: 19px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 15px;
+    width: 40px;
+    border-color: rgba(185, 110, 255, 0.918);
+}
+
+.form-input {
+    width: 87%;
+}
+
+.submit {
+
+    margin-top: 20px;
+    float: right;
+    margin-right: 70px;
+}
+
+.submit button {
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(164, 94, 230);
+    padding: 20px;
+
+}
+.submit button:disabled {
+    color: rgb(255, 41, 41);
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+
+}

@@ -1,0 +1,36 @@
+form{
+    margin-top: 10%;
+    margin-left: 38%;
+    padding: 25px;
+    background-color: rgb(178, 186, 209);
+    border-radius: 10px;
+    box-shadow: 1px 12px 10px 0px;
+    width: 20%;
+}
+
+.output{
+    margin-left: 10px;
+}
+.output input{
+    font-size: 20px;
+    width: 14rem;
+    
+}
+.switch{
+    margin-left:15px ;
+}
+.ans{
+    margin-left: 10px;
+}
+.ans .evual{
+    width: 120px;
+}
+.clear{
+    width: 120px;
+}
+input{
+    border: 0;
+    background-color: rgb(245, 234, 220);
+    border-radius: 10px;
+    padding: 20px;
+}

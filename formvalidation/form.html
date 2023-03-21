@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Form validation</title>
+</head>
+
+<body>
+    <form name="form1" method="get" action="">
+
+        <div class="clearfix main-form">
+            <div class="head">
+                <h1>Create Account</h1>
+            </div>
+            <div class="form-name">
+                <div class="fname">
+                    <label>First name</label><br>
+                    <input type="text" value="" oninput="namefinput()" name="fstname">
+                    <p id="validfname"></p>
+                </div>
+                <div class="lname">
+                    <label>Last name</label><br>
+                    <input type="text" value="" oninput="namelinput()" name="lstname">
+                    <p id="validlname"></p>
+                </div>
+            </div>
+
+            <div class="mail">
+                <label>Email</label><br>
+                <input type="email" value="" oninput="MailValidation()" name="email">
+                <p id="validEmial"></p>
+            </div>
+
+            <div class="allpassw">
+                <div class="password">
+                    <label>Password</label><br>
+                    <input type="password" name="password1" oninput="passwordValidation()" value="">
+                    <p id="validPassword"></p>
+                </div>
+                <div class="conf-password">
+                    <label>Confirm Password</label><br>
+                    <input type="password" name="password2" oninput="passwordValidation()" value="">
+                    <p id="validPassword"></p>
+                </div>
+            </div>
+            <div class="gen-hobb">
+                <div class="gender">
+                    <label>Gender</label><br>
+                    <input type="radio" class="man" value="male" name="gender"/>Male
+                    <input type="radio" class="female" value="female" name="gender"/>Female
+                </div>
+                <div class="hobbies">
+                    <label>Hobbies</label><br>
+                    <input type="checkbox" name="Music" value="Music">Music
+                    <input type="checkbox" name="Sport" value="">Sport
+                    <input type="checkbox" name="Travel" value="">Travel
+                    <input type="checkbox" name="Movies" value="">Movies
+                </div>
+            </div>
+            <div class="sorc-incom">
+                <div class="source">
+                    <label>Source/Income</label><br>
+                    <select name="source" id="source">
+                        <option value="Trainny">Trainny</option>
+                        <option value="Student">Student</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Un-employed">Un-employed</option>
+                    </select>
+                </div>
+                <div class="income">
+                    <label>Income</label><br>
+                    <input type="range" min="1" max="100" value="20" class="slider" name="rangeincom" oninput="incom()">
+                    <p><span id="demo"></span>k</p>
+                </div>
+            </div>
+            <div class="prof-age">
+                <div class="profile">
+                    <label>Upload Profile Picture</label>
+                    <input type="file" name="file" value="">
+                </div>
+                <div class="age">
+                    <label>Age :</label><br>
+                    <input type="number" name="age" value="">
+                </div>
+            </div>
+            <div class="bio">
+                <label>Bio</label><br>
+                <textarea name="" rows="5" cols="88"></textarea>
+            </div>
+            <div class="button">
+                <button id="" name="submit" value="Submit" type="submit">Create</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

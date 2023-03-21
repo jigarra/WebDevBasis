@@ -1,0 +1,221 @@
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+
+}
+
+body {
+    background-color: rgb(12, 92, 92);
+}
+
+.main-form {
+    box-shadow: 0px 0px 10rem 10px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: fit-content;
+    margin-left: 25%;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.head {
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(224, 224, 224);
+}
+
+.head h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(2, 131, 88);
+}
+
+.form-name {
+    margin-left: 10px;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.fname {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.fname input {
+
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 5px;
+    width: 20rem;
+}
+
+.lname {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.lname input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20rem;
+}
+
+.mail {
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.mail input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 44rem;
+}
+
+.allpassw {
+    margin-left: 10px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.password {
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+.password input {
+
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20rem;
+}
+
+.conf-password {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.conf-password input {
+
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20rem;
+}
+
+.gen-hobb {
+    margin-left: 10px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.gender {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.gender label {
+    padding-bottom: 5px;
+}
+
+.hobbies {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.sorc-incom {
+    margin-left: 10px;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.source {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.income {
+    display: inline-flex;
+    padding: 10px;
+    width: 50%;
+
+}
+
+.prof-age {
+    margin-left: 10px;
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.profile {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.profile input {
+    padding: 10px;
+}
+
+
+.age {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.age input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20rem;
+}
+
+
+.bio {
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    padding-left: 40rem;
+    border-radius: 0px 0px 20px 20px;
+
+    background-color: rgb(224, 224, 224);
+    float: right;
+}
+
+.button button {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    background-color: rgb(18, 199, 139);
+}
