@@ -1,0 +1,14 @@
+<?php
+if(isset($_POST["submit"]))
+{
+	$null1=$_POST["fnumber"];
+	$null2=$_POST["snumber"];
+	$null3=$_POST["tnumber"];
+
+	$max = max($null1,$null2,$null3);
+	echo "Maximum number:".$max;
+
+	$min = min($null1,$null2,$null3);
+	echo "Minimum number:".$min;
+}
+?>

@@ -1,0 +1,11 @@
+<?php
+include("connect.php");
+
+$s_id=$_POST['id'];
+$s_name=$_POST['name'];
+$city=$_POST['city'];
+
+$q="insert into stu(id,name,city)values('$id','$name','$city')";
+mysqli_query($conn,$q);
+print $q;
+?>
